@@ -237,3 +237,31 @@ button a:hover {
   padding: 0px;
 
 }
+
+#work{
+  background-color:#fff;
+  background-size: 100%;
+  color: #000;
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  top:60px;
+  width:100%;
+}
+
+#work>img{
+  width: 70%;
+}
+
+footer{
+  background-color:#373B47;
+  color:#fff;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px;
+  position: relative;
+  text-align:center;
+  top:100px;
+}
