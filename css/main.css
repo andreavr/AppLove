@@ -254,3 +254,17 @@ button a:hover {
 #work>img{
   width: 70%;
 }
+<<<<<<< HEAD
+=======
+
+footer{
+  background-color:#373B47;
+  color:#fff;
+  font-weight: bold;
+  margin: 0px;
+  padding: 10px;
+  position: relative;
+  text-align:center;
+  top:100px;
+}
+>>>>>>> fbac116f14532ba4b9699ed088653d3477c19b13
