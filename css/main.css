@@ -184,14 +184,13 @@ button a:hover {
 }
 
 #text-services{
-  background-color:#f17c72;/*Definimos el color de fondo*/
+  background-color:#f17c72;
   background-size: 100%;
   color: #fff;
   height:100%;
   margin: 0px;
   position: relative;
-  text-align: center;/*Alineamos el texto al centro */
-  top:60px;
+  text-align: center;
   padding: 0px;
   width:100%;
 }
@@ -201,24 +200,23 @@ button a:hover {
   font-weight: bold;
   margin: 0px;
   position: relative;
-  padding: 85px 0px 0px 0px;/*Colocamos valores para el relleno  en orden horario*/
+  padding: 85px 0px 0px 0px;
 }
 
 #text-services>h4{
   font-weight: bold;
   margin: 0px;
-  padding: 40px 0px 0px 0px;/*Colocamos valores para el relleno  en orden horario*/
+  padding: 40px 0px 0px 0px;/
   position: relative;
 
 }
 
 #container-services{
   font-weight: bold;
-  padding: 100px 150px 75px 150px;/*Colocamos valores para el relleno  en orden horario*/
-
+  padding: 100px 150px 75px 150px;/
 }
 
-.services{ /*Definimos la clase services para usarlas como contenedor de las imagenes de los proyectos*/
+.services{
 
   display: inline-block;
   margin: 0px;
