@@ -16,6 +16,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway',sans-serif;
 }
 
 img {
@@ -72,6 +73,14 @@ a:hover {
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 
+body {
+  box-sizing: border-box;
+  color: #373B47;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background: white;
   z-index: 1000;
@@ -114,14 +123,14 @@ section{
 }
 
 figure {
-  display: inline-block;
+  display: block;
   margin: 0;
   padding: 0;
 }
 
 #bg-home{
-  background-image:url(../assets/images/bg-home.jpg);
-  background-repeat: no-repeat;
+  background-image:url(../assets/images/bg-home.jpg);/*Colocamos de fondo a la imagen*/
+  background-repeat: no-repeat;/*Evitamos que se repita la imagen*/
   background-size: 100%;
   color:#fff;
   height:100%;
@@ -131,11 +140,12 @@ figure {
   width:100%;
  }
 
- #bg-home>h2{
+
+#bg-home>h2{
   font-weight: bold;
   margin: 0px;
   position: relative;
-  padding: 100px 0px 40px 0px;
+  padding: 100px 0px 40px 0px; /*Colocamos valores para el relleno  en orden horario*/
 
 }
 
@@ -171,4 +181,61 @@ button a {
 
 button a:hover {
  color: white;
+}
+
+#text-services{
+  background-color:#f17c72;/*Definimos el color de fondo*/
+  background-size: 100%;
+  color: #fff;
+  height:100%;
+  margin: 0px;
+  position: relative;
+  text-align: center;/*Alineamos el texto al centro */
+  top:60px;
+  padding: 0px;
+  width:100%;
+}
+
+#text-services>h2{
+  font-size:30px;
+  font-weight: bold;
+  margin: 0px;
+  position: relative;
+  padding: 85px 0px 0px 0px;/*Colocamos valores para el relleno  en orden horario*/
+}
+
+#text-services>h4{
+  font-weight: bold;
+  margin: 0px;
+  padding: 40px 0px 0px 0px;/*Colocamos valores para el relleno  en orden horario*/
+  position: relative;
+
+}
+
+#container-services{
+  font-weight: bold;
+  padding: 100px 150px 75px 150px;/*Colocamos valores para el relleno  en orden horario*/
+
+}
+
+.services{ /*Definimos la clase services para usarlas como contenedor de las imagenes de los proyectos*/
+
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  width:33%;
+
+}
+
+.services>img{
+  margin:20px;
+  max-width: 60%;
+
+}
+
+.services>h5,.services>h6{
+  margin: 0px;
+  padding: 0px;
+
 }
